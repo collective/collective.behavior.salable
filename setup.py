@@ -12,7 +12,7 @@ long_description = (
 
 setup(
     name='collective.behavior.salable',
-    version='0.1',
+    version='0.2',
     description="Behavior to make content salable.",
     long_description=long_description,
     # Get more strings from
@@ -34,6 +34,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'Plone>=4.2',
         'five.grok',
         'hexagonit.testing',
         'plone.behavior',
