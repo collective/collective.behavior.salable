@@ -1,5 +1,4 @@
 from collective.behavior.salable.interfaces import ISalable
-from decimal import Decimal
 from plone.directives import form
 from zope.interface import alsoProvides
 from zope.interface import implements

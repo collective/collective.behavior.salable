@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+0.3 (2012-10-XX)
+================
+
+- Added salable to catalog index and metadata. [taito]
+
 0.2 (2012-09-17)
 ================
 

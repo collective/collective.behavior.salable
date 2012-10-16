@@ -27,4 +27,6 @@
     title="Salable"
     />
 
+  <include file="upgrades.zcml"/>
+
 </configure>
