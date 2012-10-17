@@ -17,7 +17,9 @@ class Salable(object):
 
     @property
     def salable(self):
-        return getattr(self.context, 'salable', True)
+        if not hasattr(self.context, 'salable'):
+            setattr(self.context, 'salable', True)
+        return getattr(self.context, 'salable')
 
     @salable.setter
     def salable(self, value):
