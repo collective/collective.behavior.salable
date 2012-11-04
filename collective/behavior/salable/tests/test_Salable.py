@@ -28,12 +28,6 @@ class TestSalable(unittest.TestCase):
         from zope.interface.verify import verifyObject
         self.assertTrue(verifyObject(ISalable, instance))
 
-    def test_instance__salable(self):
-        """First time access to salable"""
-        context = object()
-        instance = self.create_instance(context=context)
-        self.assertTrue(instance.salable)
-
     def test_instance__salable__set(self):
         context = mock.Mock()
         instance = self.create_instance(context=context)

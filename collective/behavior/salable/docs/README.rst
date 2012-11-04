@@ -7,7 +7,7 @@ collective.behavior.salable provides behavior to switch dexterity content types 
 Currently tested with
 ---------------------
 
-* Plone-4.2.1 [taito]
+* Plone-4.2.2 [taito]
 
 Behavior
 --------
