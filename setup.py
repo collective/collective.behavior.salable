@@ -12,7 +12,7 @@ long_description = (
 
 setup(
     name='collective.behavior.salable',
-    version='0.2',
+    version='0.3',
     description="Behavior to make content salable.",
     long_description=long_description,
     # Get more strings from
