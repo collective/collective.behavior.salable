@@ -1,6 +1,12 @@
 Changelog
 ---------
 
+0.4 (2013-03-09)
+================
+
+- Covered tests and tested with Plone-4.2.5. [taito]
+- Added Travis CI integration. [taito]
+
 0.3 (2012-11-04)
 ================
 
