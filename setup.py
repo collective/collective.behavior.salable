@@ -38,6 +38,7 @@ setup(
         'plone.behavior',
         'plone.directives.form',
         'setuptools'],
+    extras_require={'test': ['mock', 'plone.app.testing']},
     entry_points="""
     # -*- Entry points: -*-
 
