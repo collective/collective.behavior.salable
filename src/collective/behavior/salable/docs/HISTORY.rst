@@ -5,6 +5,7 @@ Changelog
 ====================
 
 - Moved test packages to extras_require. [taito]
+- Removed dependency from five.grok. [taito]
 
 0.4 (2013-03-09)
 ================

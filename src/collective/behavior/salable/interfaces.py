@@ -1,9 +1,9 @@
 from collective.behavior.salable import _
-from zope.interface import Interface
+from plone.directives import form
 from zope.schema import Bool
 
 
-class ISalable(Interface):
+class ISalable(form.Schema):
     """Interface for Salable behavior."""
 
     salable = Bool(
