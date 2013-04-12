@@ -5,5 +5,4 @@
 *~
 .DS_Store
 .long-description.html
-collective/behavior/salable/docs/_build/*
 dist
