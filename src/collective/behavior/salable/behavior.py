@@ -1,15 +1,15 @@
 from collective.behavior.salable.interfaces import ISalable
-from plone.directives import form
+from plone.autoform.interfaces import IFormFieldProvider
 from zope.interface import alsoProvides
 from zope.interface import implements
 
 
-alsoProvides(ISalable, form.IFormFieldProvider)
+alsoProvides(ISalable, IFormFieldProvider)
 
 
 class Salable(object):
-    """
-    """
+    """Behavior to make content type salable"""
+
     implements(ISalable)
 
     def __init__(self, context):

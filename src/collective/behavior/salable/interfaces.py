@@ -1,12 +1,12 @@
 from collective.behavior.salable import _
-from plone.directives import form
-from zope.schema import Bool
+from zope import schema
+from zope.interface import Interface
 
 
-class ISalable(form.Schema):
+class ISalable(Interface):
     """Interface for Salable behavior."""
 
-    salable = Bool(
+    salable = schema.Bool(
         title=_(u"Salable"),
         description=_(u"Uncheck this if not salable."),
         default=True)

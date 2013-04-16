@@ -7,9 +7,7 @@
   xmlns="http://namespaces.zope.org/zope">
 
   <include package="plone.behavior" file="meta.zcml" />
-  <include package="plone.directives.form" />
   <i18n:registerTranslations directory="locales" />
-
 
   <genericsetup:registerProfile
     description="Installs the collective.behavior.salable package"

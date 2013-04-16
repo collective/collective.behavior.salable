@@ -19,7 +19,7 @@ setup(
     long_description=long_description,
     classifiers=[
         "Framework :: Plone",
-        "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 4.3",
         "License :: OSI Approved :: BSD License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7"],
@@ -35,7 +35,6 @@ setup(
     zip_safe=False,
     install_requires=[
         'plone.behavior',
-        'plone.directives.form',
         'setuptools'],
     extras_require={'test': ['mock', 'plone.app.testing']},
     entry_points="""
