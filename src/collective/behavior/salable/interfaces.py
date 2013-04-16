@@ -1,9 +1,9 @@
 from collective.behavior.salable import _
+from plone.supermodel.model import Schema
 from zope import schema
-from zope.interface import Interface
 
 
-class ISalable(Interface):
+class ISalable(Schema):
     """Interface for Salable behavior."""
 
     salable = schema.Bool(
