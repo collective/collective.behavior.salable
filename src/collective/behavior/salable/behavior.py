@@ -8,7 +8,7 @@ alsoProvides(ISalable, IFormFieldProvider)
 
 
 class Salable(object):
-    """Behavior to make content type salable"""
+    """Behavior: Salable"""
 
     implements(ISalable)
 
