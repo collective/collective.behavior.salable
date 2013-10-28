@@ -1,24 +1,11 @@
 Changelog
 ---------
 
-0.4.0.4 (2013-04-17)
-====================
+0.5 (2013-05-28)
+================
 
 - Separated schema from attributes and methods. [taito]
-
-0.4.0.3 (2013-04-16)
-====================
-
-- Updated imports. [taito]
-
-0.4.0.2 (2013-04-16)
-====================
-
-- Tested with Plone-4.3. [taito]
-
-0.4.0.1 (2013-04-12)
-====================
-
+- Tested with Plone-4.3.2. [taito]
 - Moved test packages to extras_require. [taito]
 - Removed dependency from five.grok. [taito]
 
