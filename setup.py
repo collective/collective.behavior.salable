@@ -21,7 +21,7 @@ setup(
         "License :: OSI Approved :: BSD License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7"],
-    keywords='',
+    keywords='saleable',
     author='Taito Horiuchi',
     author_email='taito.horiuchi@gmail.com',
     url='https://github.com/collective/collective.behavior.salable/',
