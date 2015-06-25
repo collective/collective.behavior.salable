@@ -12,7 +12,7 @@ long_description = (
 
 setup(
     name='collective.behavior.salable',
-    version='0.5',
+    version='0.5.1',
     description="Behavior to make content salable.",
     long_description=long_description,
     classifiers=[

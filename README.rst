@@ -4,6 +4,9 @@ collective.behavior.salable
 
 collective.behavior.salable provides behavior to switch dexterity content types salable.
 
+.. image:: https://secure.travis-ci.org/collective/collective.behavior.salable.png
+    :target: http://travis-ci.org/collective/collective.behavior.salable
+
 Currently tested with
 ---------------------
 
