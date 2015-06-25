@@ -32,6 +32,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'Products.CMFPlacefulWorkflow',
         'plone.behavior',
         'setuptools'],
     extras_require={'test': ['mock', 'plone.app.testing']},
