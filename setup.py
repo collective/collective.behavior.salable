@@ -34,7 +34,7 @@ setup(
     install_requires=[
         'plone.behavior',
         'setuptools'],
-    extras_require={'test': ['mock', 'plone.app.testing']},
+    extras_require={'test': ['Products.CMFPlacefulWorkflow', 'mock', 'plone.app.testing']},
     entry_points="""
     # -*- Entry points: -*-
 
