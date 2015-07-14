@@ -1,7 +1,7 @@
 Changelog
 ---------
 
-0.5.2 (2015-xx-xx)
+0.5.2 (2015-07-14)
 ==================
 
 - Migrate Travis CI to container-based. [taito]
